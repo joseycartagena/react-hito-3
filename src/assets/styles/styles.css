@@ -1,0 +1,47 @@
+.miHeader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url('../img/Header.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 48px 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.navbar {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  
+  .navbar-title {
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .total-button {
+    margin-left: auto;
+    color: rgb(70, 121, 229) !important;
+    border: 1px solid rgb(70, 121, 229) !important;
+  }
+  
+  .navbar .nav-link {
+    border: 1px solid white;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 4px;
+    margin: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .navbar .nav-link:last-child {
+    margin-right: 0.2rem;
+  }
+  
+  .navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  

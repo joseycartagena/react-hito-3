@@ -1,0 +1,91 @@
+/* Contenedor principal del carrito */
+.container-custom {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Título del carrito */
+  h2 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Imagen de la pizza */
+  .pizza-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  /* Información de la pizza */
+  .pizza-info {
+    flex: 1;
+    margin-left: 15px;
+  }
+  
+  .pizza-name {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  /* Precio */
+  .d-block-price {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  
+  .btn-danger {
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+  }
+  
+  .btn-blue {
+    border: 1px solid blue;
+    color: blue;
+    background-color: transparent;
+  }
+  
+  /* Contador de cantidad */
+  .mx-2 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Tarjeta de cada pizza */
+  .d-flex-align {
+    align-items: center;
+  }
+  
+  .border {
+    border: 1px solid #ddd;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rounded {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Total del carrito */
+  h3 {
+    font-weight: bold;
+    color: #000;
+    margin: 20px 0 10px;
+  }
+  
+  /* Botón de pagar */
+  button.btn-success {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    }
